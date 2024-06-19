@@ -1,0 +1,2 @@
+# wezterm
+$Env:TERM = "wezterm"
