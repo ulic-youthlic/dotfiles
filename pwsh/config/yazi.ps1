@@ -1,3 +1,5 @@
+$Env:YAZI_FILE_ONE = 'D:\Scoop\local\apps\git\current\usr\bin\file.exe'
+
 function Script:Open-Yazi {
     $tmp = [System.IO.Path]::GetTempFileName()
     yazi $args --cwd-file="$tmp"
